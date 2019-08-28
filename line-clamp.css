@@ -1,0 +1,54 @@
+/*
+ Line Clamp styles
+ List of classes `line-clamp-[1..10]` for using in
+ https://css-tricks.com/almanac/properties/l/line-clamp.
+*/
+
+@supports (-webkit-line-clamp: 1) {
+  [class*='line-clamp'] {
+    overflow: hidden;
+    display: -webkit-box;
+    /* autoprefixer: off */
+    -webkit-box-orient: vertical;
+  }
+
+  .line-clamp-1 {
+    -webkit-line-clamp: 1;
+  }
+
+  .line-clamp-2 {
+    -webkit-line-clamp: 2;
+  }
+
+  .line-clamp-3 {
+    -webkit-line-clamp: 3;
+  }
+
+  .line-clamp-4 {
+    -webkit-line-clamp: 4;
+  }
+
+  .line-clamp-5 {
+    -webkit-line-clamp: 5;
+  }
+
+  .line-clamp-6 {
+    -webkit-line-clamp: 6;
+  }
+
+  .line-clamp-7 {
+    -webkit-line-clamp: 7;
+  }
+
+  .line-clamp-8 {
+    -webkit-line-clamp: 8;
+  }
+
+  .line-clamp-9 {
+    -webkit-line-clamp: 9;
+  }
+
+  .line-clamp-10 {
+    -webkit-line-clamp: 10;
+  }
+}

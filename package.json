@@ -1,0 +1,28 @@
+{
+  "name": "@skilld/line-clamp",
+  "version": "1.0.0",
+  "description": "Global trimlines functionality.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "line-clamp": "0.0.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hog-seruj/line-clamp.git"
+  },
+  "keywords": [
+    "trimlines",
+    "line-clmap",
+    "Kaizen",
+    "Drupal"
+  ],
+  "author": "Sergiy Borodulin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hog-seruj/line-clamp/issues"
+  },
+  "homepage": "https://github.com/hog-seruj/line-clamp#readme"
+}
