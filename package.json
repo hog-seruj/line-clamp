@@ -1,6 +1,6 @@
 {
   "name": "@skilld/line-clamp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Global trimlines functionality.",
   "main": "index.js",
   "scripts": {

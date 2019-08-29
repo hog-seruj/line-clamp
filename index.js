@@ -8,11 +8,10 @@
  */
 
 import lineClamp from 'line-clamp';
-import modernizr from './.modernizrrc';
 
 export default (trimmedElements, context = document ) => {
 
-  const lineClampSupported = modernizr.testAllProps('lineClamp');
+  const lineClampSupported = CSS.supports('line-clamp: 1') || CSS.supports('-webkit-line-clamp: 1');
 
   for (const el in trimmedElements) {
     if (trimmedElements.hasOwnProperty(el)) {
