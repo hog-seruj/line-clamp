@@ -5,8 +5,6 @@
 ### JS code
 
 ```javascript
-import modernizr from '../.modernizrrc';
-import { addBreakpointListener } from '../breakpoints';
 import lineClamp from 'line-clamp';
 
 lineClamp(
